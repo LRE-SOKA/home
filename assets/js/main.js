@@ -166,7 +166,7 @@ $(function() {
 
       if (
         location.pathname === "/index.html" ||
-        location.pathname === "/"
+        location.pathname === ""
       ) {
         //ニュース
         $.ajax({
