@@ -165,8 +165,8 @@ $(function() {
       });
 
       if (
-        location.pathname === "/index.html" ||
-        location.pathname === "http://lre.soka.ac.jp/"
+        location.pathname === "/toda_labo/index.html" ||
+        location.pathname === "/toda_labo/"
       ) {
         //ニュース
         $.ajax({
