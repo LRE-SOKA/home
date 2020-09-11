@@ -165,8 +165,8 @@ $(function() {
       });
 
       if (
-        location.pathname === "/toda_labo/index.html" ||
-        location.pathname === "/toda_labo/"
+        location.pathname === "/index.html" ||
+        location.pathname === "/"
       ) {
         //ニュース
         $.ajax({
