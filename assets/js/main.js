@@ -166,7 +166,7 @@ $(function() {
 
       if (
         location.pathname === "/index.html" ||
-        location.pathname === "http://lre.soka.ac.jp"
+        location.pathname === "http://lre.soka.ac.jp/"
       ) {
         //ニュース
         $.ajax({
