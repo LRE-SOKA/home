@@ -165,8 +165,8 @@ $(function() {
       });
 
       if (
-        location.pathname === "/toda_labo/index.html" ||
-        location.pathname === "/toda_labo/"
+        location.pathname === "/index.html" ||
+        location.pathname === "/"
       ) {
         //ニュース
         $.ajax({
@@ -199,8 +199,8 @@ $(function() {
           }
         });
       } else if (
-        location.pathname === "/toda_labo/en/index.html" ||
-        location.pathname === "/toda_labo/en/"
+        location.pathname === "/en/index.html" ||
+        location.pathname === "/en/"
       ) {
         //ニュース
         $.ajax({
@@ -240,7 +240,7 @@ $(function() {
       }
     },
     news: function() {
-      if (location.pathname === "/toda_labo/news.html") {
+      if (location.pathname === "/news.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/oi9egak/public/values?alt=json",
@@ -271,7 +271,7 @@ $(function() {
             }
           }
         });
-      } else if (location.pathname === "/toda_labo/en/news.html") {
+      } else if (location.pathname === "/en/news.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/oupqnq2/public/values?alt=json",
@@ -474,7 +474,7 @@ $(function() {
       });
     },
     member: function() {
-      if (location.pathname === "/toda_labo/active_member.html") {
+      if (location.pathname === "/active_member.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/ow66bcr/public/values?alt=json",
@@ -524,7 +524,7 @@ $(function() {
             $('.member_wrapper').append(single_profile)
           }
         });
-      } else if (location.pathname === "/toda_labo/en/active_member.html") {
+      } else if (location.pathname === "/en/active_member.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/ow66bcr/public/values?alt=json",
@@ -574,7 +574,7 @@ $(function() {
             $('.member_wrapper').append(single_profile)
           }
         });
-      } else if (location.pathname === "/toda_labo/obog.html") {
+      } else if (location.pathname === "/obog.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/olry89r/public/values?alt=json",
@@ -714,7 +714,7 @@ $(function() {
             }
           }
         });
-      } else if(location.pathname === "/toda_labo/en/obog.html") {
+      } else if(location.pathname === "/en/obog.html") {
         $.ajax({
           url:
             "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/olry89r/public/values?alt=json",
