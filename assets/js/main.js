@@ -460,6 +460,54 @@ $(function() {
           });
         }
       });
+
+      //特許
+      $.ajax({
+        url:
+          "https://spreadsheets.google.com/feeds/cells/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/od1cwi0/public/values?alt=json",
+        dataType: "json",
+        async: true,
+        success: function(data, order) {
+          let entries = data.feed.entry;
+          let article_array = [];
+          for (let i = 9; i < entries.length; i = i + 9) {
+            let obj = {
+              author: "",
+              title: "",
+              pub_num: "",
+              year: "",
+              month: "",
+              status: ""
+            };
+            if (entries[i] !== undefined) {
+              obj.author = entries[i].content.$t
+            }
+            if (entries[i + 2] !== undefined) {
+              obj.title = entries[i + 1].content.$t;
+            }
+            if (entries[i + 6] !== undefined) {
+              obj.pub_num = entries[i + 5].content.$t;
+            }
+            if (entries[i + 7] !== undefined) {
+              obj.year = entries[i + 6].content.$t;
+            }
+            if (entries[i + 8] !== undefined) {
+              obj.month = entries[i + 7].content.$t;
+            }
+            obj.status = entries[i + 8].content.$t;
+
+            if(obj.status === '公開') {
+              article_array.push(obj);
+            }
+          }
+
+          article_array.forEach(article => {
+            $(".patent_wrapper").append(
+              `<li>${article.author}, ${article.title}, ${article.pub_num}, ${article.year}年${article.month}月, ${article.status}.</li>`
+            );
+          });
+        }
+      });
     },
     study: function() {
       $("img").each(function(index, elm) {
