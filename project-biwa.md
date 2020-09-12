@@ -27,3 +27,5 @@ path: ''
 {% include image.html url="./assets/images/biwa-proposal.jpg" description="本プロジェクトが目指す「現代版里湖循環型・自然共生社会」の概略図" style="height: 213px;" wrapper_style="width: 286px; margin-right: 10px"%}
 {% include image.html url="./assets/images/biwa-wash.jpg" description="実験用に採取した水草の洗浄、選別作業。ものすごい量です。" style="height: 213px;" wrapper_style="width: 165px"%}
 </div>
+
+<a class="scroll_to_top"></a>

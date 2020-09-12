@@ -38,7 +38,7 @@ path: '../'
 沿岸域における低次栄養段階生物、すなわち植物・動物プランクトン、バクテリアの生産生態学を研究しています。沿岸環境について、中長期的環境変動の解析と要因を分析しています。また、近年多くなってきた台風とその沿岸環境への影響を調べています。
 本研究室では、1995 年から現在に至るまで、横浜国立大学大学院環境情報研究院菊池研究室と「相模湾における沿岸生態系」に関して共同研究を行ってきました。
 
-{% include image.html url="../assets/images/manazuru1.jpg" description="真鶴半島" %}
+{% include image.html url="../assets/images/manazuru1.jpg" description="真鶴半島"  lightbox="false" %}
 {% include image.html url="../assets/images/sampling_thumb.jpg" description="サンプリング風景：動物プランクトンネットの準備をしています" %}
 
 ##### 相模湾
@@ -214,3 +214,5 @@ SML には微生物がより多く存在していることが報告されてお�
 
 {% include image.html url="../assets/images/okiami10.jpg" description="オキアミの食道管の様子" %}
 {% include image.html url="../assets/images/okiami11.jpg" description="グレガリナ(Cephaloidophora pacifica Avdeev)<br />と呼ばれる原生動物がオキアミの体内に寄生している" %}
+
+<a class="scroll_to_top"></a>

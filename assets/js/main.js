@@ -377,7 +377,7 @@ $(function() {
             );
             article_array[year].forEach(article => {
               $(`.year_list`).append(
-                `<li><a name="Othman${year}"></a>${article.author}<br /><div class="article"><a href='${article.link}' target='_blank'>${article.title}</a><br />${article.article}</div></li>`
+                `<li><a name="Othman${year}"></a>${article.author}, ${year}.<br /><div class="article"><a href='${article.link}' target='_blank'>${article.title}</a><br />${article.article}</div></li>`
               );
             });
           });
@@ -463,14 +463,18 @@ $(function() {
     },
     study: function() {
       $("img").each(function(index, elm) {
-        let imgsrc = $(elm).attr("src");
-        $(elm).wrap(`<a href="${imgsrc}" rel="lightbox"></a>`);
+        if($(elm).attr('data-lightbox') !== 'false') {
+          let imgsrc = $(elm).attr("src");
+          $(elm).wrap(`<a href="${imgsrc}" rel="lightbox"></a>`);
+        }
       });
     },
     project: function() {
       $("img").each(function(index, elm) {
-        let imgsrc = $(elm).attr("src");
-        $(elm).wrap(`<a href="${imgsrc}" rel="lightbox"></a>`);
+        if($(elm).attr('data-lightbox') !== 'false') {
+          let imgsrc = $(elm).attr("src");
+          $(elm).wrap(`<a href="${imgsrc}" rel="lightbox"></a>`);
+        }
       });
     },
     member: function() {
