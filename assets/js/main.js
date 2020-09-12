@@ -24,15 +24,15 @@ $(function() {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("toda_labo/en/") !== -1) {
+  if (CurUrl.indexOf("en/") !== -1) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/en/", "toda_labo/")
+      CurUrl.replace("en/", "")
     );
   } else {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/", "toda_labo/en/")
+      location.origin + "/en" + location.pathname
     );
   }
 
