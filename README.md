@@ -76,7 +76,7 @@
 
 ## 研究室メンバー、卒業生の更新方法
 1. [ウェブサイト運営用のスプレッドシート](https://docs.google.com/spreadsheets/d/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/edit#gid=1945290017)にアクセスし、「研究室メンバー」、「OB・OG」タブを編集する。
-2. [メンバー画像アップロード用ページ](https://github.com/reika0717/toda_labo/tree/master/assets/images/members)にアクセスし、1でスプレッドシートの画像タイトルカラムに追加した名前と同じファイル名の画像データをアップロードする。
+2. [メンバー画像アップロード用ページ](https://github.com/LRE-SOKA/LRE-SOKA.github.io/tree/master/assets/images/members)にアクセスし、1でスプレッドシートの画像タイトルカラムに追加した名前と同じファイル名の画像データをアップロードする。
 4. ウェブサイトを開き、リロードして更新されていることを確認する。
 
 ## 研究室メンバースプレッドシートのカラム名を変えたい場合
