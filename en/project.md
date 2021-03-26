@@ -46,14 +46,6 @@ Click [here](./project-biwa.html) to see more details.
 {% include image.html url="../assets/images/biwa-wash.jpg" description="Washing and selection of harvested aquatic weeds for our experiments. It was a tough work." style="width: 162px;" wrapper_style="width: 162px;"%}
 </div>
 
-● [Verification experiment for preventing sea desertification in Shin-Kamigoto, Nagasaki Prefecture, Japan](./project-goto.html)（2014-2016）
-
-Content
-In rocky areas along the shore, various seaweeds generally grow abundantly from the water's edge to the dozens of meters. Such seaweed beds play an important role as feeding sites and/or safe houses for larvae and juveniles, maintaining their survival rate. Therefore, seaweed beds contribute to conservation of fishery resources. Recently, however, seaweed beds in many coastal areas in Japan have decreased and turned into "Desert seas". Against such a background, our laboratory has been engaged on verification experiment of sea desertification prevention by fertilizing nutrients. This research project is a commissioned project by Shin-Kamigoto, Nagasaki Prefecture in Japan.
-Click [here](./project-goto.html) to see more details.
-
-{% include image.html url="../assets/images/goto-scheme.jpg" description="Fig. Schema of nutrients circulation by connecting land with sea in this research project"%}
-
 #### Past projects
 
 - [2009-2013 Ministry of Education, Culture, Sports, Science and Technology (MEXT): Strategic Research Foundation Grant-aided Project for Private Universities](./pastprojects.html#pp_2009-2013)
