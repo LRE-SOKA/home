@@ -6,6 +6,16 @@ path: '../'
 
 ### Projects
 
+#### Verification experiment for preventing sea desertification in Shin-Kamigoto, Nagasaki Prefecture, Japan
+
+##### 2014-2016 {#pp_2014-2016}
+
+##### "Verification experiment for preventing sea desertification in Shin-Kamigoto, Nagasaki Prefecture, Japan"
+
+Content In rocky areas along the shore, various seaweeds generally grow abundantly from the water's edge to the dozens of meters. Such seaweed beds play an important role as feeding sites and/or safe houses for larvae and juveniles, maintaining their survival rate. Therefore, seaweed beds contribute to conservation of fishery resources. Recently, however, seaweed beds in many coastal areas in Japan have decreased and turned into "Desert seas". Against such a background, our laboratory has been engaged on verification experiment of sea desertification prevention by fertilizing nutrients. This research project is a commissioned project by Shin-Kamigoto, Nagasaki Prefecture in Japan. Click here to see more details.
+
+{% include image.html url="../assets/images/goto-scheme.jpg" description="Fig. Schema of nutrients circulation by connecting land with sea in this research project"%}
+
 #### Ministry of Education, Culture, Sports, Science and Technology (MEXT): Strategic Research Foundation Grant-aided Project for Private Universities
 
 ##### 2009-2013 {#pp_2009-2013}
