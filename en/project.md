@@ -47,7 +47,7 @@ Click [here](./project-biwa.html) to see more details.
 </div>
 
 #### Past projects
-- [Verification experiment for preventing sea desertification in Shin-Kamigoto, Nagasaki Prefecture, Japan](./pastprojects.html#pp_2014-2016)
+- [2014-2016 Verification experiment for preventing sea desertification in Shin-Kamigoto, Nagasaki Prefecture, Japan](./pastprojects.html#pp_2014-2016)
 - [2009-2013 Ministry of Education, Culture, Sports, Science and Technology (MEXT): Strategic Research Foundation Grant-aided Project for Private Universities](./pastprojects.html#pp_2009-2013)
 - [2008-2010 Ministry of the Environment: Research Projects for Promoting a Recycle-oriented Society (currently called Grant-in-Aid for Scientific Research for promoting a Recycling-oriented Society)](./pastprojects.html#pp_2008-2010)
 - [2006-2008 Indonesia SEED Project](./pastprojects.html#pp_2006-2008)
