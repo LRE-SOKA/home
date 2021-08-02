@@ -7,7 +7,7 @@ path: '../'
 ### Overview
 
 Laboratory of Restoration Ecology studies the conservation and restoration of destructed aquatic environments and develops the technologies having a minimal environmental impact on aquatic ecosystems. Our study ranges from aquatic ecology and planktology to ecological engineering, wastewater science, and waste engineering.
-![image]({{site.baseurl}}/assets/images/theme.jpg)
+![image]({{site.baseurl}}/assets/images/修復研の目標_eng.jpg)
 
 - Conserve ecosystems and restore destructed environments
 
