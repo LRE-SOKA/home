@@ -161,8 +161,8 @@ $(function () {
       });
 
       if (
-        location.pathname === "/toda_labo/index.html" ||
-        location.pathname === "/toda_labo/"
+        location.pathname === "/LRE-SOKA.github.io/index.html" ||
+        location.pathname === "/LRE-SOKA.github.io/"
       ) {
         //ニュース
         $.ajax({
@@ -191,8 +191,8 @@ $(function () {
           },
         });
       } else if (
-        location.pathname === "/toda_labo/en/index.html" ||
-        location.pathname === "/toda_labo/en/"
+        location.pathname === "/LRE-SOKA.github.io/en/index.html" ||
+        location.pathname === "/LRE-SOKA.github.io/en/"
       ) {
         //ニュース
         $.ajax({
@@ -229,7 +229,7 @@ $(function () {
       }
     },
     news: function () {
-      if (location.pathname === "/toda_labo/news.html") {
+      if (location.pathname === "/LRE-SOKA.github.io/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/お知らせ?key=${API_KEY}`,
           dataType: "json",
@@ -255,7 +255,7 @@ $(function () {
             }
           },
         });
-      } else if (location.pathname === "/toda_labo/en/news.html") {
+      } else if (location.pathname === "/LRE-SOKA.github.io/en/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
           dataType: "json",
