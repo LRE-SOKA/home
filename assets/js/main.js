@@ -27,15 +27,15 @@ $(function () {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("toda_labo/en/") !== -1) {
+  if (CurUrl.indexOf("LRE-SOKA.github.io/en/") !== -1) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/en/", "toda_labo/")
+      CurUrl.replace("LRE-SOKA.github.io/en/", "LRE-SOKA.github.io/")
     );
   } else {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/", "toda_labo/en/")
+      CurUrl.replace("LRE-SOKA.github.io/", "LRE-SOKA.github.io/en/")
     );
   }
 
