@@ -7,7 +7,7 @@ $(function () {
     name_title_ja: "名前",
     name_title_en: "name",
     position_title_ja: "役職",
-    position_title_en: "position",
+    position_title_en: "position",ｆ
     biography_title_ja: "略歴",
     biography_title_en: "biography",
     comment_title_ja: "一言",
@@ -161,8 +161,8 @@ $(function () {
       });
 
       if (
-        location.pathname === "/LRE-SOKA.github.io/index.html" ||
-        location.pathname === "/LRE-SOKA.github.io/"
+        location.pathname === "/lre.soka.ac.jp/index.html" ||
+        location.pathname === "/lre.soka.ac.jp/"
       ) {
         //ニュース
         $.ajax({
@@ -191,8 +191,8 @@ $(function () {
           },
         });
       } else if (
-        location.pathname === "/LRE-SOKA.github.io/en/index.html" ||
-        location.pathname === "/LRE-SOKA.github.io/en/"
+        location.pathname === "/lre.soka.ac.jp/en/index.html" ||
+        location.pathname === "/lre.soka.ac.jp/en/"
       ) {
         //ニュース
         $.ajax({
@@ -228,7 +228,7 @@ $(function () {
       }
     },
     news: function () {
-      if (location.pathname === "/LRE-SOKA.github.io/news.html") {
+      if (location.pathname === "/lre.soka.ac.jp/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/お知らせ?key=${API_KEY}`,
           dataType: "json",
@@ -254,7 +254,7 @@ $(function () {
             }
           },
         });
-      } else if (location.pathname === "/LRE-SOKA.github.io/en/news.html") {
+      } else if (location.pathname === "/lre.soka.ac.jp/en/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
           dataType: "json",
