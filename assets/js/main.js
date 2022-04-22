@@ -27,15 +27,15 @@ $(function () {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("LRE-SOKA.github.io/en/") !== -1) {
+  if (CurUrl.indexOf("lre.soka.ac.jp/en/") !== -1) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("LRE-SOKA.github.io/en/", "LRE-SOKA.github.io/")
+      CurUrl.replace("lre.soka.ac.jp/en/", "lre.soka.ac.jp/")
     );
   } else {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("LRE-SOKA.github.io/", "LRE-SOKA.github.io/en/")
+      CurUrl.replace("lre.soka.ac.jp/", "lre.soka.ac.jp/en/")
     );
   }
 
