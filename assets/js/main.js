@@ -200,7 +200,6 @@ $(function () {
           dataType: "json",
           async: true,
           success: function (data) {
-            let entries = data.feed.entry;
             let news_array = data.values.map((val) => {
               return {
                 date: val[0],
