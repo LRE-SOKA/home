@@ -161,8 +161,8 @@ $(function () {
       });
 
       if (
-        location.pathname === "/index.html" ||
-        location.pathname === "/"
+        location.pathname === "/lre.soka.ac.jp/index.html" ||
+        location.pathname === "/lre.soka.ac.jp/"
       ) {
         //ニュース
         $.ajax({
