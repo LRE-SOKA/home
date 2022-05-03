@@ -196,7 +196,7 @@ $(function () {
       ) {
         //ニュース
         $.ajax({
-          url: `https://docs.google.com/spreadsheets/d/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/edit#gid=1104182054${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
+          url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
           dataType: "json",
           async: true,
           success: function (data) {
