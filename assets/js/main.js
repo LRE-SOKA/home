@@ -7,7 +7,7 @@ $(function () {
     name_title_ja: "名前",
     name_title_en: "name",
     position_title_ja: "役職",
-    position_title_en: "position",ｆ
+    position_title_en: "position",
     biography_title_ja: "略歴",
     biography_title_en: "biography",
     comment_title_ja: "一言",
