@@ -27,15 +27,15 @@ $(function () {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("lre.soka.ac.jp/en/") !== -1) {
+  if (CurUrl.indexOf("toda_labo/en/") !== -1) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("lre.soka.ac.jp/en/", "lre.soka.ac.jp/")
+      CurUrl.replace("toda_labo/en/", "toda_labo/")
     );
   } else {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("lre.soka.ac.jp/", "lre.soka.ac.jp/en/")
+      CurUrl.replace("toda_labo/", "toda_labo/en/")
     );
   }
 
@@ -161,8 +161,8 @@ $(function () {
       });
 
       if (
-        location.pathname === "/lre.soka.ac.jp/index.html" ||
-        location.pathname === "/lre.soka.ac.jp/"
+        location.pathname === "/toda_labo/index.html" ||
+        location.pathname === "/toda_labo/"
       ) {
         //ニュース
         $.ajax({
@@ -191,8 +191,8 @@ $(function () {
           },
         });
       } else if (
-        location.pathname === "/lre.soka.ac.jp/en/index.html" ||
-        location.pathname === "/lre.soka.ac.jp/en/"
+        location.pathname === "/toda_labo/en/index.html" ||
+        location.pathname === "/toda_labo/en/"
       ) {
         //ニュース
         $.ajax({
@@ -228,7 +228,7 @@ $(function () {
       }
     },
     news: function () {
-      if (location.pathname === "/lre.soka.ac.jp/news.html") {
+      if (location.pathname === "/toda_labo/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/お知らせ?key=${API_KEY}`,
           dataType: "json",
@@ -254,7 +254,7 @@ $(function () {
             }
           },
         });
-      } else if (location.pathname === "/lre.soka.ac.jp/en/news.html") {
+      } else if (location.pathname === "/toda_labo/en/news.html") {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
           dataType: "json",
