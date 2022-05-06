@@ -27,7 +27,7 @@ $(function () {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("toda_labo/en/") !== -1) {
+  if (CurUrl.indexOf("lre.soka.ac.jp/en/") !== -1) {
     $(".main_language").attr(
       "href",
       CurUrl.replace("lre.soka.ac.jp/en/", "lre.soka.ac.jp/")
