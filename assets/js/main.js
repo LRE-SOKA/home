@@ -30,12 +30,12 @@ $(function () {
   if (CurUrl.indexOf("toda_labo/en/") !== -1) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/en/", "toda_labo/")
+      CurUrl.replace("lre.soka.ac.jp/en/", "lre.soka.ac.jp/")
     );
   } else {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("toda_labo/", "toda_labo/en/")
+      CurUrl.replace("lre.soka.ac.jp/", "lre.soka.ac.jp/en/")
     );
   }
 
