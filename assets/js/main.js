@@ -163,8 +163,8 @@ $(function () {
       });
 
       if (
-        location.pathname === "/lre.soka.ac.jp/index.html" ||
-        location.pathname === "/lre.soka.ac.jp/"
+        location.pathname === PATH ||
+        location.pathname === `${PATH}index.html`
       ) {
         //ニュース
         $.ajax({
@@ -193,8 +193,8 @@ $(function () {
           },
         });
       } else if (
-        location.pathname === "/lre.soka.ac.jp/index.html" ||
-        location.pathname === "/lre.soka.ac.jp/en/"
+        location.pathname === `${PATH}en/` ||
+        location.pathname === `${PATH}en/index.html`
       ) {
         //ニュース
         $.ajax({
@@ -230,7 +230,7 @@ $(function () {
       }
     },
     news: function () {
-      if (location.pathname === "/lre.soka.ac.jp/news.html") {
+      if (location.pathname === `${PATH}news.html`) {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/お知らせ?key=${API_KEY}`,
           dataType: "json",
@@ -256,7 +256,7 @@ $(function () {
             }
           },
         });
-      } else if (location.pathname === "/lre.soka.ac.jp/en/news.html") {
+      } else if (location.pathname === `${PATH}en/news.html`) {
         $.ajax({
           url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/News?key=${API_KEY}`,
           dataType: "json",
