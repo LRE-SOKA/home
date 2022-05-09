@@ -1,6 +1,9 @@
 const API_KEY = "AIzaSyDyp7uWrxIBaGxW4mT1fqR1QdbrcnJZShw"; // TODO: 見えないようにする
 const SPREADSHEET_ID = "1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk";
 
+const is_prod = location.origin === "https://lre.soka.ac.jp";
+const PATH = is_prod ? "/" : "/toda_labo/";
+
 $(function () {
   var pageType = $("html").attr("data-page-type");
   const column_title = {
@@ -27,16 +30,15 @@ $(function () {
 
   // 言語設定のリンク
   var CurUrl = location.href;
-  if (CurUrl.indexOf("lre.soka.ac.jp/en/") !== -1) {
+  if (CurUrl.includes(`${PATH}en/`)) {
+    $(".main_language").attr("href", CurUrl.replace(`${PATH}en/`, `${PATH}`));
+  } else if (is_prod) {
     $(".main_language").attr(
       "href",
-      CurUrl.replace("lre.soka.ac.jp/en/", "lre.soka.ac.jp/")
+      CurUrl.replace(location.origin, `${location.origin}/en`)
     );
   } else {
-    $(".main_language").attr(
-      "href",
-      CurUrl.replace("lre.soka.ac.jp/", "lre.soka.ac.jp/en/")
-    );
+    $(".main_language").attr("href", CurUrl.replace(PATH, `${PATH}en/`));
   }
 
   // グローバルナビゲーション
