@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* ----------------------- Toda Labo.CSS ----------------------- */
+/* ----------------------- Toda Lab.CSS ----------------------- */
 /*============================================================================== */
 /*                              デ　フォ　ル　ト */
 /*============================================================================== */
@@ -1106,7 +1106,7 @@ body#achievement #contents .YearDiv {
 }
 
 #contents .member_wrapper > ul > li.single_profile > div > p.position {
-  font-size: 10px !important;
+  font-size: 14px !important;
 }
 
 #contents .member_wrapper > ul > li.single_profile > div > p.name {
