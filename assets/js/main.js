@@ -285,7 +285,7 @@ $(function () {
         });
       }
     },
-    intro: function () {},
+    intro: function () { },
     achievement: function () {
       //学術論文
       $.ajax({
@@ -330,7 +330,7 @@ $(function () {
 
       //国際会議
       $.ajax({
-        url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/学術論文?key=${API_KEY}`,
+        url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/国際会議?key=${API_KEY}`,
         dataType: "json",
         async: true,
         success: function (data, order) {
@@ -399,20 +399,16 @@ $(function () {
             members.forEach((member) => {
               single_profile += `
               <li class="single_profile">
-                <img src="${lang === "en" ? "../" : ""}assets/images/members/${
-                member["画像タイトル"]
-              }.jpg"/>
+                <img src="${lang === "en" ? "../" : ""}assets/images/members/${member["画像タイトル"]
+                }.jpg"/>
                 <div>
-                  <p class="position">${
-                    member[lang === "ja" ? "役職" : "position"]
-                  }</p>
+                  <p class="position">${member[lang === "ja" ? "役職" : "position"]
+                }</p>
                   <p class="name">${member[lang === "ja" ? "名前" : "name"]}</p>
-                  <p class="biography">${
-                    member[lang === "ja" ? "略歴" : "biography"]
-                  }</p>
-                  <p class="comment">${
-                    member[lang === "ja" ? "一言" : "comment"]
-                  }</p>
+                  <p class="biography">${member[lang === "ja" ? "略歴" : "biography"]
+                }</p>
+                  <p class="comment">${member[lang === "ja" ? "一言" : "comment"]
+                }</p>
                 </div>
               </li>
             `;
@@ -444,19 +440,15 @@ $(function () {
             Object.entries(members).forEach(([category, data]) => {
               let members_html = "";
               data.forEach((datam) => {
-                members_html += `<li class="single_profile" id="${
-                  datam["画像タイトル"]
-                }">
-                  <img src="${
-                    lang === "en" ? "../" : ""
+                members_html += `<li class="single_profile" id="${datam["画像タイトル"]
+                  }">
+                  <img src="${lang === "en" ? "../" : ""
                   }assets/images/members/${datam["画像タイトル"]}.jpg"/>
                   <div>
-                    <p class="position">${
-                      lang === "ja" ? datam["職業"] : datam["job"]
-                    }</p>
-                    <p class="name">${
-                      lang === "ja" ? datam["名前"] : datam["name"]
-                    }</p>
+                    <p class="position">${lang === "ja" ? datam["職業"] : datam["job"]
+                  }</p>
+                    <p class="name">${lang === "ja" ? datam["名前"] : datam["name"]
+                  }</p>
                     <p>${lang === "ja" ? datam["略歴"] : datam["biography"]}</p>
                   </div>
                 </li>`;
@@ -499,12 +491,10 @@ $(function () {
                   // infobox に表示するHTML
                   infoboxContent.innerHTML = `
                     <div class="infobox">
-                      <a class="name" href="#${member["画像タイトル"]}">${
-                    member["name"]
-                  }</a>
-                      <p class="content">${
-                        member[lang === "ja" ? "職業" : "job"]
-                      }</p>
+                      <a class="name" href="#${member["画像タイトル"]}">${member["name"]
+                    }</a>
+                      <p class="content">${member[lang === "ja" ? "職業" : "job"]
+                    }</p>
                     </div>
                   `;
                   infowindow[i] = new google.maps.InfoWindow({
