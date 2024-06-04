@@ -9,28 +9,28 @@
 ## 研究室紹介、研究内容、研究プロジェクト、リンクの更新方法
 1. 以下クリックし、編集したいファイルを開く。
 【日本語】
-- [研究室紹介](/blob/master/intro.md)
-- [研究内容](/blob/master/study.md)
-- [研究内容-水圏生態系の研究](/blob/master/studies/study-ocean.md)
-- [研究内容-人間活動による環境負荷軽減に向けての研究](/blob/master/studies/study-waste.md)
-- [研究内容-循環型社会形成に関する基盤研究](/blob/master/studies/study-recycle.md)
-- [現在のプロジェクト](/blob/master/project.md) 
-- [現在のプロジェクト-水草バイオマスの持続可能な収穫と利活用による湖沼生態系保全技術の確立](/blob/master/project-biwa.md)
-- [現在のプロジェクト-長崎県新上五島町における磯焼け対策実証実験](/blob/master/project-goto.md)
-- [過去のプロジェクト](/blob/master/pastprojects.md) 
-- [リンク](/blob/master/links.md)
+- [研究室紹介](/intro.md)
+- [研究内容](/study.md)
+- [研究内容-水圏生態系の研究](/studies/study-ocean.md)
+- [研究内容-人間活動による環境負荷軽減に向けての研究](/studies/study-waste.md)
+- [研究内容-循環型社会形成に関する基盤研究](/studies/study-recycle.md)
+- [現在のプロジェクト](/project.md) 
+- [現在のプロジェクト-水草バイオマスの持続可能な収穫と利活用による湖沼生態系保全技術の確立](/project-biwa.md)
+- [現在のプロジェクト-長崎県新上五島町における磯焼け対策実証実験](/project-goto.md)
+- [過去のプロジェクト](/pastprojects.md) 
+- [リンク](/links.md)
 
 【英語】
-- [研究室紹介](/blob/master/en/intro.md)
-- [研究内容](/blob/master/en/study.md)
-- [研究内容-水圏生態系の研究](/blob/master/en/studies/study-ocean.md)
-- [研究内容-人間活動による環境負荷軽減に向けての研究](/blob/master/en/studies/study-waste.md)
-- [研究内容-循環型社会形成に関する基盤研究](/blob/master/en/studies/study-recycle.md)
-- [現在のプロジェクト](/blob/master/en/project.md) 
-- [現在のプロジェクト-水草バイオマスの持続可能な収穫と利活用による湖沼生態系保全技術の確立](/blob/master/en/project-biwa.md)
-- [現在のプロジェクト-長崎県新上五島町における磯焼け対策実証実験](/blob/master/en/project-goto.md)
-- [過去のプロジェクト](/blob/master/en/pastprojects.md) 
-- [リンク](/blob/master/en/links.md)
+- [研究室紹介](/en/intro.md)
+- [研究内容](/en/study.md)
+- [研究内容-水圏生態系の研究](/en/studies/study-ocean.md)
+- [研究内容-人間活動による環境負荷軽減に向けての研究](/en/studies/study-waste.md)
+- [研究内容-循環型社会形成に関する基盤研究](/en/studies/study-recycle.md)
+- [現在のプロジェクト](/en/project.md) 
+- [現在のプロジェクト-水草バイオマスの持続可能な収穫と利活用による湖沼生態系保全技術の確立](/en/project-biwa.md)
+- [現在のプロジェクト-長崎県新上五島町における磯焼け対策実証実験](/en/project-goto.md)
+- [過去のプロジェクト](/en/pastprojects.md) 
+- [リンク](/en/links.md)
 
 2. 右上のpenのアイコンをクリックし、マークダウン記法で編集する。
 
@@ -81,7 +81,7 @@
 
 ## 研究室メンバースプレッドシートのカラム名を変えたい場合
 1. [ウェブサイト運営用のスプレッドシート](https://docs.google.com/spreadsheets/d/1tS9IKv0vphga9-MnUEzLFCuB2I32s1yiG2e2XE4pjQk/edit#gid=1945290017)にアクセスし、カラムタイトルを変更する。
-2. [javascriptのファイル](/blob/master/assets/js/main.js)を開き、右上のpenのアイコンをクリックし、4行目〜12行目にあるタイトル名を変更する。
+2. [javascriptのファイル](/assets/js/main.js)を開き、右上のpenのアイコンをクリックし、4行目〜12行目にあるタイトル名を変更する。
 
 ## スプレッドシート編集時の注意点
 - データがない場合は「-」(半角ハイフン)を入力する。（空白のままだと表示がずれてしまいます）
