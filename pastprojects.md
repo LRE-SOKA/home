@@ -6,6 +6,49 @@ path: ''
 
 ### 過去の研究プロジェクト
 
+#### SATREPS・COSMOS プロジェクト
+
+###### 2016-2022 {#pp_2016-2022}
+
+##### 「SATREPS・COSMOS プロジェクト」
+
+内容：
+SATREPS “地球規模課題対応国際科学技術協力プログラム”は、科学技術振興機構 (JST)と国際協力機構 (JICA)が連携して実施する事業です。本事業の一環である COSMOS プロジェクトは、日本とマレーシアの７つの研究機関で“微細藻類の大量培養技術の確立による持続可能な熱帯水産資源生産システムの構築”を目指します。プロジェクトを通して、開発途上国の自立的研究開発能力の向上と課題解決に資する持続的活動基盤の形成を図ります。
+
+詳細については[こちら](http://cosmos-satreps.org/)を御覧ください。
+<div class="multiple_figure_wrapper">
+{% include image.html url="assets/images/overview_cosmos.jpg" description="本プロジェクトが目指すシステムの概略図" wrapper_style="margin-right: 10px;"%}
+{% include image.html url="assets/images/COSMOS logo.jpg" description="日本とマレーシアの協力を表すプロジェクトのロゴ" wrapper_style="width: 101px;"%}
+</div>
+
+#### 文部科学省 私立大学ブランディング事業
+
+##### 2017-2019 {#pp_2017-2019}
+
+##### 「PLANE3T (PLANkton Eco-engineering for Environmental and Economic Transformation) Project」
+（事業責任者: 神立孝一 副学長、研究プロジェクト責任者: 戸田龍樹）
+
+内容：
+特に途上国地域での貧困や食料問題、環境破壊は、国際的な中心課題となっています。本事業では、本学の理系・文系学部の研究を融合することで、特色ある新たな学際的研究分野として「プランクトン工学」を提案し、広大な土地、豊富な太陽光資源を持つアフリカ・エチオピア国と共同で、持続可能な循環型社会システムの構築を目指します。具体的には、現地に適した環境技術の研究開発、エチオピア原産の植物プランクトンの加工・商品化による新たな産業基盤の形成に取り組みます。また、本事業による環境・経営・経済教育を通して、若手技術者や起業家などの人材を育成し、「国際社会で活躍できる創造的人間を輩出する大学」としてのブランドを確立するとともに、国連SDGsが掲げる環境保全・飢餓解消に貢献していきます。
+
+詳細については[こちら](https://www.soka.ac.jp/research/branding/)を御覧ください。
+
+#### 環境省　環境研究総合推進費委託費
+
+###### 2014-2016 {#pp_2014-20116}
+
+###### 「環境省　環境研究総合推進費委託費」
+
+内容：
+近年、日本各地の陸水域では水草の大量繁茂による環境悪化が懸念されています。例えば、琵琶湖では水草の分布が南湖の 90%以上を覆っており、社会・経済にわたる複合的環境問題（漁業活動への影響、周辺住民への悪臭被害、景観悪化によるツーリズムへの影響など）を引き起こしています。そこで本プロジェクトでは、１）水草の持続可能な除去・管理基準の策定、２）除去した水草バイオマスの有効利用法の確立についての研究を行っています。
+
+詳細については[こちら](./project-biwa.html)を御覧ください。
+
+<div class="multiple_figure_wrapper">
+{% include image.html url="assets/images/biwa-proposal.jpg" description="本プロジェクトが目指す「現代版里湖循環型・自然共生社会」の概略図" style="width: 282px;" wrapper_style="width: 282px; margin-right: 10px;"%}
+{% include image.html url="assets/images/biwa-wash.jpg" description="実験用に採取した水草の洗浄、選別作業。ものすごい量です。" style="width: 162px;" wrapper_style="width: 162px;"%}
+</div>
+
 #### 長崎県新上五島町における磯焼け対策実証実験
 
 ##### 2014-2016 {#pp_2014-2016}
