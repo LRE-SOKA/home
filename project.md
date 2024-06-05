@@ -27,7 +27,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 
 詳細については[こちら](https://www.soka.ac.jp/satreps-earth/)を御覧ください。
 <div class="multiple_figure_wrapper">
-{% include image.html url="./assets/images/overview_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図"}
+{% include image.html url="./assets/images/overview_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図"wrapper_style="margin-right: 10px;"%}
 {% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド" wrapper_style="width: 101px;"%}
 </div>
 
@@ -46,7 +46,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 日本では現在、約1.8億羽の採卵鶏が集約的に飼養され、年間約800万tの鶏ふんが局所的に排出されています。これらは土地利用の制約のため、温室効果ガスを放出しつつ電力を消費し、高速堆肥化装置で処理されています。完全閉鎖型で創エネルギー可能なメタン発酵処理は環境負荷低減が期待できる反面、毒性が高いアンモニアの生成や飼料由来の無機砂による配管閉塞が実用化への課題となっています。本事業では、前処理槽（加水分解・ストリッピング）の導入によるアンモニア除去システムの確立と処理プロセス・装置設計の改良によって、新規カーボンニュートラルシステムを構築し、国内初の採卵鶏ふんを単一原料としたバイオガス化によるエネルギー回収技術の実用化を目指しています。本研究室では、本提案プロセスのラボスケールでの基礎データの収集と実機運転へのフィードバックを担当しています。
 詳細については[こちら](https://www.smcon.co.jp/topics/2022/11151300/)を御覧ください。
 
-{% include image.html url="assets/images/mitsuisumitomo_chikenmanure.jpg" description="従来の高速堆肥化と鶏ふんバイオガス化のフロー図"%}
+{% include image.html url="./assets/images/mitsuisumitomo_chikenmanure.jpg" description="従来の高速堆肥化と鶏ふんバイオガス化のフロー図" %}
 
 ##### ● [難培養性微細藻類の成長促進物質の特定と新規成長培地の研究開発]（2023-2025）
 〈日本私立学校振興・共済事業団　学術研究振興資金〉
@@ -54,7 +54,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 内容：
 化粧品・健康食品・色素・バイオ燃料などを生産できる微細藻類は数10万種が存在しますが、大量培養できる増殖性を有する種は30種（株）程度に限られています。難培養な微細藻類種の中には高濃度の有価物を含有するものも存在しており、大量培養に最適な培地が開発されることで産業化への突破口となります。自然界では、降雨によって土壌浸出水が沿岸域に流れると、赤潮（微細藻類の大増殖）が誘発されることが経験的に知られています。土壌抽出液に含まれる溶存有機物は、微細藻類の増殖に深く関与し、土壌抽出液の添加は、微細藻類の増殖促進に極めて高い可能性を秘めています。本研究では、土壌抽出液の添加による新規の微細藻類培地を研究開発し、これまで難培養とされてきた各種の微細藻類の増殖と有価物生産性の向上を目指しています。
 
-{% include image.html url="assets/images/soilextract_nanbaiyou.jpg" description="プロジェクトの概念図"%}
+{% include image.html url="./assets/images/soilextract_nanbaiyou.jpg" description="プロジェクトの概念図" %}
 
 #### 過去のプロジェクト
 - [2016-2022 SATREPS・COSMOS プロジェクト](http://cosmos-satreps.org/#pp_2016-2022)
