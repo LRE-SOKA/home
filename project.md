@@ -27,7 +27,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 
 詳細については[こちら](https://www.soka.ac.jp/satreps-earth/)を御覧ください。
 <div class="multiple_figure_wrapper">
-{% include image.html url="./assets/images/overview_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図"wrapper_style="margin-right: 10px;"%}
+{% include image.html url="./assets/images/overview_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図" wrapper_style="margin-right: 10px;"%}
 {% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド" wrapper_style="width: 101px;"%}
 </div>
 
@@ -46,7 +46,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 日本では現在、約1.8億羽の採卵鶏が集約的に飼養され、年間約800万tの鶏ふんが局所的に排出されています。これらは土地利用の制約のため、温室効果ガスを放出しつつ電力を消費し、高速堆肥化装置で処理されています。完全閉鎖型で創エネルギー可能なメタン発酵処理は環境負荷低減が期待できる反面、毒性が高いアンモニアの生成や飼料由来の無機砂による配管閉塞が実用化への課題となっています。本事業では、前処理槽（加水分解・ストリッピング）の導入によるアンモニア除去システムの確立と処理プロセス・装置設計の改良によって、新規カーボンニュートラルシステムを構築し、国内初の採卵鶏ふんを単一原料としたバイオガス化によるエネルギー回収技術の実用化を目指しています。本研究室では、本提案プロセスのラボスケールでの基礎データの収集と実機運転へのフィードバックを担当しています。
 詳細については[こちら](https://www.smcon.co.jp/topics/2022/11151300/)を御覧ください。
 
-{% include image.html url="./assets/images/mitsuisumitomo_chiken manure.jpg" description="従来の高速堆肥化と鶏ふんバイオガス化のフロー図" style="width: 100px;"%}
+{% include image.html url="assets/images/mitsuisumitomo_chiken manure.jpg"% description="従来の高速堆肥化と鶏ふんバイオガス化のフロー図"% style="width: 300px;"%}
 
 ##### ● [難培養性微細藻類の成長促進物質の特定と新規成長培地の研究開発]（2023-2025）
 〈日本私立学校振興・共済事業団　学術研究振興資金〉
