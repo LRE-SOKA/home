@@ -382,7 +382,6 @@ $(function () {
             return obj;
           });
           article_array.forEach((article) => {
-            console.log(article)
             $(".patent_wrapper").append(
               `<li>${article.year}/${article.month} ${article.author}<br /><div class="article">${article.title}</div></li>`
             );
