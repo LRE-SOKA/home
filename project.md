@@ -57,8 +57,8 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 {% include image.html url="assets/images/soilextract_nanbaiyou.jpg" description="プロジェクトの概念図"%}
 
 #### 過去のプロジェクト
-- [SATREPS・COSMOS プロジェクト](http://cosmos-satreps.org/#pp_2016-2022)
-- [環境省　環境研究総合推進費委託費](./project-biwa.html#pp_2014-2016)
+- [2016-2022 SATREPS・COSMOS プロジェクト](http://cosmos-satreps.org/#pp_2016-2022)
+- [2014-2016 環境省　環境研究総合推進費委託費](./project-biwa.html#pp_2014-2016)
 - [2014-2016 長崎県新上五島町における磯焼け対策実証実験](./pastprojects.html#pp_2014-2016)
 - [2009-2013 文部科学省　私立大学戦略的研究基盤形成支援事業](./pastprojects.html#pp_2009-2013)
 - [2008-2010 環境省 循環型社会形成推進研究事業（現 循環型社会形成推進科学研究費補助金）](./pastprojects.html#pp_2008-2010)
