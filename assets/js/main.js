@@ -368,6 +368,27 @@ $(function () {
           });
         },
       });
+
+      //特許出願
+      $.ajax({
+        url: `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/特許出願?key=${API_KEY}`,
+        dataType: "json",
+        async: true,
+        success: function (data, order) {
+          let head = data.values.shift();
+          const article_array = data.values.map((val) => {
+            let obj = {};
+            val.forEach((datam, i) => (obj[head[i]] = datam));
+            return obj;
+          });
+          article_array.forEach((article) => {
+            console.log(article)
+            $(".patent_wrapper").append(
+              `<li>${article.year}/${article.month} ${article.author}<br /><div class="article">${article.title}</div></li>`
+            );
+          });
+        },
+      });
     },
     study: function () {
       $("img").each(function (index, elm) {
