@@ -26,7 +26,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 近年の人口増加に伴う栄養塩の流入や外来種の移入により、エチオピアのタナ湖で水草（ホテイアオイ）が過剰繁茂し、環境汚染や経済的損失を引き起こしています。EARTH プロジェクトは、日本とエチオピアの6つの研究機関で“ナイルの源流エチオピア・タナ湖で過剰繁茂する水草バイオマスの管理手法と有効利用プロセスの確立”に向けて、水草をリモートセンシング等のICTを駆使して適切に管理・回収し、回収したバイオマスから有価物（バイオガス、メタン発酵消化液、バイオ炭、微細藻類、野菜、作物など）を生産するプロセスを研究開発することで、環境保全と経済成長を両立させる現代版アフリカ里湖（さとうみ）循環型社会の構築を目指します。本研究室では、ホテイアオイ消化液から現地で単離された微細藻類Limnospira fusiformis大量培養を研究開発するテーマ３を担当しています。
 
 詳細については[こちら](https://www.soka.ac.jp/satreps-earth/)を御覧ください。
-
+-
 <div class="multiple_figure_wrapper">
 {% include image.html url="./assets/images/overveiw_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図" wrapper_style="width: 30px; margin-right: 10px;"%}
 {% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド" wrapper_style="width: 30px;" %}
