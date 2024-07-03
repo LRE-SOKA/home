@@ -29,7 +29,7 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 
 <div class="multiple_figure_wrapper">
 {% include image.html url="./assets/images/overveiw_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図" }
-{% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド"}
+{% include image.html url="./assets/images/hoteiaoi_racewaypond resize.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド"}
 </div>
 
 ##### ● [滋賀県下水汚泥有効利用調査研究]（2022-2024）
