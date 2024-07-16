@@ -28,11 +28,11 @@ SATREPS “地球規模課題対応国際科学技術協力プログラム”（
 詳細については[こちら](https://www.soka.ac.jp/satreps-earth/)を御覧ください。
 
 <div class="multiple_figure_wrapper">
-{% include image.html url="./assets/images/overveiw_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図"style="width: 600px;"}
+{% include image.html url="./assets/images/overveiw_EARTH.jpg" description="本プロジェクトが目指すシステムの概略図"style="width: 150px;"}
 </div>
 
 <div class="multiple_figure_wrapper">
-{% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド"style="width: 600px;"}
+{% include image.html url="./assets/images/hoteiaoi_racewaypond.jpg" description="エチオピアで過剰繁茂しているホテイアオイと建設したレースウェイポンド"style="width: 150px;"}
 </div>
 
 ##### ● [滋賀県下水汚泥有効利用調査研究]（2022-2024）
